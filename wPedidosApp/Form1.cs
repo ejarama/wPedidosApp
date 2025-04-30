@@ -56,9 +56,24 @@ namespace wPedidosApp
             }
         }
 
+        private void btnVerHistorial_Click(object sender, EventArgs e)
+        {
+            new FrmHistorial().ShowDialog();
+        }
 
+        private void limpiarCampos()
+        {
+            txtCliente.Clear();
+            cmbProducto.SelectedIndex = -1;
+            chkUrgente.Checked = false;
+            nudPeso.Value = nudPeso.Minimum;
+            nudDistancia.Value = nudDistancia.Minimum;
+            lblResultado.Text = string.Empty;
+        }
 
-
-
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            limpiarCampos();
+        }
     }
 }

@@ -50,20 +50,20 @@ namespace wPedidosApp
             // txtCliente
             // 
             this.txtCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCliente.Location = new System.Drawing.Point(260, 144);
-            this.txtCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCliente.Location = new System.Drawing.Point(130, 75);
+            this.txtCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtCliente.Name = "txtCliente";
-            this.txtCliente.Size = new System.Drawing.Size(262, 35);
+            this.txtCliente.Size = new System.Drawing.Size(133, 21);
             this.txtCliente.TabIndex = 0;
             // 
             // lblCliente
             // 
             this.lblCliente.AutoSize = true;
             this.lblCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCliente.Location = new System.Drawing.Point(54, 150);
-            this.lblCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCliente.Location = new System.Drawing.Point(27, 78);
+            this.lblCliente.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCliente.Name = "lblCliente";
-            this.lblCliente.Size = new System.Drawing.Size(183, 29);
+            this.lblCliente.Size = new System.Drawing.Size(93, 15);
             this.lblCliente.TabIndex = 1;
             this.lblCliente.Text = "Nombre Cliente";
             // 
@@ -75,20 +75,20 @@ namespace wPedidosApp
             "tecnología",
             "accesorio",
             "componente"});
-            this.cmbProducto.Location = new System.Drawing.Point(260, 219);
-            this.cmbProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbProducto.Location = new System.Drawing.Point(130, 114);
+            this.cmbProducto.Margin = new System.Windows.Forms.Padding(2);
             this.cmbProducto.Name = "cmbProducto";
-            this.cmbProducto.Size = new System.Drawing.Size(262, 37);
+            this.cmbProducto.Size = new System.Drawing.Size(133, 23);
             this.cmbProducto.TabIndex = 2;
             // 
             // lblProducto
             // 
             this.lblProducto.AutoSize = true;
             this.lblProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProducto.Location = new System.Drawing.Point(54, 235);
-            this.lblProducto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblProducto.Location = new System.Drawing.Point(27, 122);
+            this.lblProducto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblProducto.Name = "lblProducto";
-            this.lblProducto.Size = new System.Drawing.Size(110, 29);
+            this.lblProducto.Size = new System.Drawing.Size(56, 15);
             this.lblProducto.TabIndex = 3;
             this.lblProducto.Text = "Producto";
             // 
@@ -96,10 +96,10 @@ namespace wPedidosApp
             // 
             this.chkUrgente.AutoSize = true;
             this.chkUrgente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkUrgente.Location = new System.Drawing.Point(1088, 138);
-            this.chkUrgente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.chkUrgente.Location = new System.Drawing.Point(544, 72);
+            this.chkUrgente.Margin = new System.Windows.Forms.Padding(2);
             this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(131, 33);
+            this.chkUrgente.Size = new System.Drawing.Size(70, 19);
             this.chkUrgente.TabIndex = 4;
             this.chkUrgente.Text = "Urgente";
             this.chkUrgente.UseVisualStyleBackColor = true;
@@ -107,20 +107,20 @@ namespace wPedidosApp
             // nudPeso
             // 
             this.nudPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudPeso.Location = new System.Drawing.Point(824, 138);
-            this.nudPeso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudPeso.Location = new System.Drawing.Point(412, 72);
+            this.nudPeso.Margin = new System.Windows.Forms.Padding(2);
             this.nudPeso.Name = "nudPeso";
-            this.nudPeso.Size = new System.Drawing.Size(120, 35);
+            this.nudPeso.Size = new System.Drawing.Size(60, 21);
             this.nudPeso.TabIndex = 5;
             // 
             // lblPeso
             // 
             this.lblPeso.AutoSize = true;
             this.lblPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(624, 148);
-            this.lblPeso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPeso.Location = new System.Drawing.Point(312, 77);
+            this.lblPeso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(138, 29);
+            this.lblPeso.Size = new System.Drawing.Size(70, 15);
             this.lblPeso.TabIndex = 6;
             this.lblPeso.Text = "Peso en Kg";
             // 
@@ -130,10 +130,10 @@ namespace wPedidosApp
             this.lblDistancia.AutoSize = true;
             this.lblDistancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.lblDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDistancia.Location = new System.Drawing.Point(598, 235);
-            this.lblDistancia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDistancia.Location = new System.Drawing.Point(299, 122);
+            this.lblDistancia.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDistancia.Name = "lblDistancia";
-            this.lblDistancia.Size = new System.Drawing.Size(186, 29);
+            this.lblDistancia.Size = new System.Drawing.Size(97, 15);
             this.lblDistancia.TabIndex = 8;
             this.lblDistancia.Text = "Distancia en Km";
             // 
@@ -142,19 +142,19 @@ namespace wPedidosApp
             this.nudDistancia.AllowDrop = true;
             this.nudDistancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.nudDistancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudDistancia.Location = new System.Drawing.Point(824, 223);
-            this.nudDistancia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nudDistancia.Location = new System.Drawing.Point(412, 116);
+            this.nudDistancia.Margin = new System.Windows.Forms.Padding(2);
             this.nudDistancia.Name = "nudDistancia";
-            this.nudDistancia.Size = new System.Drawing.Size(120, 35);
+            this.nudDistancia.Size = new System.Drawing.Size(60, 21);
             this.nudDistancia.TabIndex = 7;
             // 
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(1088, 213);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcular.Location = new System.Drawing.Point(544, 111);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(188, 69);
+            this.btnCalcular.Size = new System.Drawing.Size(94, 36);
             this.btnCalcular.TabIndex = 9;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -164,28 +164,52 @@ namespace wPedidosApp
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(54, 375);
-            this.lblResultado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblResultado.Location = new System.Drawing.Point(27, 195);
+            this.lblResultado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 29);
+            this.lblResultado.Size = new System.Drawing.Size(0, 15);
             this.lblResultado.TabIndex = 10;
+            // 
+            // btnVerHistorial
+            // 
+            this.btnVerHistorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerHistorial.Location = new System.Drawing.Point(544, 219);
+            this.btnVerHistorial.Margin = new System.Windows.Forms.Padding(2);
+            this.btnVerHistorial.Name = "btnVerHistorial";
+            this.btnVerHistorial.Size = new System.Drawing.Size(94, 36);
+            this.btnVerHistorial.TabIndex = 11;
+            this.btnVerHistorial.Text = "Ver Historial";
+            this.btnVerHistorial.UseVisualStyleBackColor = true;
+            this.btnVerHistorial.Click += new System.EventHandler(this.btnVerHistorial_Click);
             // 
             // lblTituloForm1
             // 
             this.lblTituloForm1.AutoSize = true;
             this.lblTituloForm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloForm1.Location = new System.Drawing.Point(596, 44);
-            this.lblTituloForm1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTituloForm1.Location = new System.Drawing.Point(298, 23);
+            this.lblTituloForm1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTituloForm1.Name = "lblTituloForm1";
-            this.lblTituloForm1.Size = new System.Drawing.Size(157, 44);
+            this.lblTituloForm1.Size = new System.Drawing.Size(79, 24);
             this.lblTituloForm1.TabIndex = 12;
             this.lblTituloForm1.Text = "Pedidos";
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(544, 164);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(94, 36);
+            this.btnLimpiar.TabIndex = 13;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1374, 627);
+            this.ClientSize = new System.Drawing.Size(687, 326);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblTituloForm1);
             this.Controls.Add(this.btnVerHistorial);
@@ -200,7 +224,7 @@ namespace wPedidosApp
             this.Controls.Add(this.cmbProducto);
             this.Controls.Add(this.lblCliente);
             this.Controls.Add(this.txtCliente);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).EndInit();
